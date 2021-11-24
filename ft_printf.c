@@ -6,7 +6,7 @@
 /*   By: aben-ham <aben-ham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/21 14:16:47 by aben-ham          #+#    #+#             */
-/*   Updated: 2021/11/24 16:23:16 by aben-ham         ###   ########.fr       */
+/*   Updated: 2021/11/24 16:33:47 by aben-ham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,5 +57,3 @@ int	ft_printf(const char *str, ...)
 	va_end(arg);
 	return (len);
 }
-
-
