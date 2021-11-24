@@ -6,13 +6,13 @@
 /*   By: aben-ham <aben-ham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 21:21:09 by aben-ham          #+#    #+#             */
-/*   Updated: 2021/11/24 12:12:37 by aben-ham         ###   ########.fr       */
+/*   Updated: 2021/11/24 15:46:12 by aben-ham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	fu_numlen(unsigned int n)
+int	fu_numlen(long long n)
 {
 	int	i;
 

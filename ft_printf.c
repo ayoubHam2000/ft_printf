@@ -6,7 +6,7 @@
 /*   By: aben-ham <aben-ham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/21 14:16:47 by aben-ham          #+#    #+#             */
-/*   Updated: 2021/11/24 12:18:49 by aben-ham         ###   ########.fr       */
+/*   Updated: 2021/11/24 16:23:16 by aben-ham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static int	handle_args_types(const char *str, va_list arg)
 	if (*str == 'u')
 		return (fu_putuint(va_arg(arg, unsigned int)));
 	if (*str == 'x' || *str == 'X')
-		return (fu_puthex(va_arg(arg, int), *str));
+		return (fu_puthex(va_arg(arg, unsigned int), *str));
 	if (*str == 'p')
 		return (fu_putptr(va_arg(arg, void *)));
 	return (0);
@@ -57,3 +57,5 @@ int	ft_printf(const char *str, ...)
 	va_end(arg);
 	return (len);
 }
+
+

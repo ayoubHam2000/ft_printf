@@ -6,7 +6,7 @@
 /*   By: aben-ham <aben-ham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 12:09:41 by aben-ham          #+#    #+#             */
-/*   Updated: 2021/11/24 12:11:56 by aben-ham         ###   ########.fr       */
+/*   Updated: 2021/11/24 16:18:51 by aben-ham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <stdarg.h>
 
 //util
-int	fu_numlen(unsigned int n);
+int	fu_numlen(long long n);
 int	fu_putint(int n);
 int	fu_putuint(unsigned int n);
 int	fu_putstr(char *str);
